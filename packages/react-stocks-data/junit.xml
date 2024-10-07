@@ -1,88 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="1" errors="0" time="2.237">
-  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2024-09-27T23:49:52" time="1.865" tests="4">
-    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.057">
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="1.361">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-10-07T22:14:32" time="0.897" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.062">
     </testcase>
-    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="1.027">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: null
-Received: &lt;ul class=&quot;mt-50 slide-up-fade-in styled&quot; data-testid=&quot;stock-data&quot; id=&quot;stockData&quot;&gt;&lt;li class=&quot;py-10&quot;&gt;Open: &lt;/li&gt;&lt;li class=&quot;py-10&quot;&gt;Close: &lt;/li&gt;&lt;li class=&quot;py-10&quot;&gt;High: &lt;/li&gt;&lt;li class=&quot;py-10&quot;&gt;Low: &lt;/li&gt;&lt;/ul&gt;
-
-Ignored nodes: comments, script, style
-&lt;html&gt;
-  &lt;head /&gt;
-  &lt;body&gt;
-    &lt;div&gt;
-      &lt;div&gt;
-        &lt;h8k-navbar
-          header=&quot;Stock Data&quot;
-        /&gt;
-        &lt;div
-          class=&quot;layout-column align-items-center mt-50&quot;
-        &gt;
-          &lt;section
-            class=&quot;layout-row align-items-center justify-content-center&quot;
-          &gt;
-            &lt;form&gt;
-              &lt;input
-                class=&quot;large&quot;
-                data-testid=&quot;app-input&quot;
-                id=&quot;app-input&quot;
-                placeholder=&quot;5-January-2000&quot;
-                type=&quot;text&quot;
-              /&gt;
-              &lt;button
-                class=&quot;&quot;
-                data-testid=&quot;submit-button&quot;
-                id=&quot;submit-button&quot;
-              &gt;
-                Search
-              &lt;/button&gt;
-            &lt;/form&gt;
-          &lt;/section&gt;
-          &lt;ul
-            class=&quot;mt-50 slide-up-fade-in styled&quot;
-            data-testid=&quot;stock-data&quot;
-            id=&quot;stockData&quot;
-          &gt;
-            &lt;li
-              class=&quot;py-10&quot;
-            &gt;
-              Open: 
-            &lt;/li&gt;
-            &lt;li
-              class=&quot;py-10&quot;
-            &gt;
-              Close: 
-            &lt;/li&gt;
-            &lt;li
-              class=&quot;py-10&quot;
-            &gt;
-              High: 
-            &lt;/li&gt;
-            &lt;li
-              class=&quot;py-10&quot;
-            &gt;
-              Low: 
-            &lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
-    at /home/suabochica/Development/hackerrank/d542467d-cf23-48dd-939a-7b4704fcef14/src/App.test.js:35:41
-    at runWithExpensiveErrorDiagnosticsDisabled (/home/suabochica/Development/hackerrank/d542467d-cf23-48dd-939a-7b4704fcef14/node_modules/@testing-library/dom/dist/config.js:47:12)
-    at checkCallback (/home/suabochica/Development/hackerrank/d542467d-cf23-48dd-939a-7b4704fcef14/node_modules/@testing-library/dom/dist/wait-for.js:127:77)
-    at checkRealTimersCallback (/home/suabochica/Development/hackerrank/d542467d-cf23-48dd-939a-7b4704fcef14/node_modules/@testing-library/dom/dist/wait-for.js:121:16)
-    at Timeout.task [as _onTimeout] (/home/suabochica/Development/hackerrank/d542467d-cf23-48dd-939a-7b4704fcef14/node_modules/jsdom/lib/jsdom/browser/Window.js:516:19)
-    at listOnTimeout (node:internal/timers:581:17)
-    at processTimers (node:internal/timers:519:7)</failure>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.035">
     </testcase>
-    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.026">
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.017">
     </testcase>
-    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.024">
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.02">
     </testcase>
   </testsuite>
 </testsuites>
