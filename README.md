@@ -1,9 +1,10 @@
 🥇 Hackerrank
 =============
 
-Welcome! This repository stores the technical assesstment that I did for hackerrank.
+Welcome! This repository stores the technical assessment that I did for hackerrank.
 
-✅ Assesstments
+✅ Assessments
 ---------------
 
-1. React: Stocks Data
+1. React: Sorting Articles
+2. React: Stocks Data
