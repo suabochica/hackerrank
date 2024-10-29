@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="0" errors="0" time="1.361">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-10-07T22:14:32" time="0.897" tests="4">
-    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.062">
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="1.056">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-10-29T21:47:59" time="0.63" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.079">
     </testcase>
-    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.035">
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="0.048">
     </testcase>
-    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.017">
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="0.032">
     </testcase>
-    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.02">
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="0.032">
     </testcase>
   </testsuite>
 </testsuites>
